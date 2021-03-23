@@ -221,7 +221,7 @@ TABLE  \ref{table} represents all the possibilities of choosing socks one by one
 The probability that the two socks drawn are of the same colour(by substituting values from table \ref{table})
  \begin{align}
      &= \Pr\brak{X_1 = X_2} \\
-     &= \sum_{i = 1}^3 \Pr\brak{X_2 = i | X_1 = i}*\Pr\brak{X_1 = i}\\
+     &= \sum_{i = 1}^3 \Pr\brak{X_2 = i | X_1 = i}\Pr\brak{X_1 = i}\\
      &= \dfrac{6}{90} +\dfrac{12}{90} + \dfrac{6}{90}\\
      &= \dfrac{4}{15}
  \end{align}
@@ -229,7 +229,7 @@ The probability that the two socks drawn are of the same colour(by substituting 
  
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=8cm]{socks_prob.png}
+    \includegraphics[width = \columnwidth]{socks_prob.png}
     \caption{Simulation and Theoretical Comparison}
     \label{Figure_3}
 \end{figure}
